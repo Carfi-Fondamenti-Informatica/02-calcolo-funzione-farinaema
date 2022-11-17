@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
 
-    float a =0 , b = 0, x = 0, y = 0, z = 0;
+    float a, b, x, y, z = 0;
     cin >> a >> b >> x >> y;
 
     if (x<0 && y>0){
@@ -14,5 +14,5 @@ int main(){
             z=((a*x)-(b*(y*y)));
         }
     }
-    cout << z;
+    cout << z << endl;
 }
